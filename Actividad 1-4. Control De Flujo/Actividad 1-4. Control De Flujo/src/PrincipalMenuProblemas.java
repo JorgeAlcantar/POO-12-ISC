@@ -527,7 +527,7 @@ public class PrincipalMenuProblemas extends javax.swing.JFrame {
     int res = 1; //Inicia res en 1.
     
       // Inicio del programa: 
-      serie = Integer.parseInt(JOptionPane.showInputDialog(this, "***EXPONENTE DE UNA BASE***" + "Introduce el exponente de la base: "));
+      serie = Integer.parseInt(JOptionPane.showInputDialog(this, "***EXPONENTE DE UNA BASE***\n" + "Introduce el exponente de la base: "));
       base = Integer.parseInt(JOptionPane.showInputDialog(this, "Introduce el valor de la base: "));
       
       // Procesar datos:
